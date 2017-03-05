@@ -43,7 +43,6 @@ class List {
             this.memory[i - 1] = this.memory[i];
         }
 
-
         delete this.memory[this.length - 1];
         this.length--;
 

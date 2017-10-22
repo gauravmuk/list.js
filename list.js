@@ -20,8 +20,10 @@ class List {
 
         let currentIndex = this.length - 1;
         let value = this.memory[currentIndex];
-        delete this.memory[this.length - 1];
 
+        // We could use splice but we are avoiding native methods here, so, we'll implement the array-length trick
+        // This will actually delete the value from array and will not leave undefined at that index in case of using `delete`
+        this.memory.length = currentIndex;
         this.length--;
 
         return value;

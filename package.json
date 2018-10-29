@@ -1,0 +1,23 @@
+{
+  "name": "list",
+  "version": "1.0.0",
+  "description": "list operations",
+  "main": "list.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravmuk/list.js.git"
+  },
+  "keywords": [
+    "list",
+    "array"
+  ],
+  "author": "Gaurav Nanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gauravmuk/list.js/issues"
+  },
+  "homepage": "https://github.com/gauravmuk/list.js#readme"
+}
